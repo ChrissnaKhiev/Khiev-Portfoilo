@@ -1,0 +1,44 @@
+header {
+    padding: 20px;
+}
+header h1 {
+    display: inline-block;
+    font-size: 36px;
+}
+nav {
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+    margin-left: 25px;
+    padding-top: 32px;
+}
+nav a {
+    text-decoration: none;
+    margin: 15px;
+}
+main {
+    width: 60%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+.line1 {
+    border-left: 6px solid black;
+    height: 200px;
+}
+.line2 {
+    border-left: 6px solid black;
+    height: 500px;
+}
+.line3 {
+    border-left: 6px solid black;
+    height: 100px;
+}
+.about {
+    padding: 20px;
+    display: flex;
+}
+.about p {
+    font-size: 16px;
+}
