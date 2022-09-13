@@ -1,44 +1,81 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+:root {
+    --main-color: rgb(253, 255, 118);
+}
 header {
-    padding: 20px;
+    width: 100%;
+    height: 100px;
+    background-image: url("/assets/images/IMG_0238.png");
+    border: 5px solid var(--main-color);
 }
 header h1 {
     display: inline-block;
     font-size: 36px;
+    margin-left: 25px;
+    padding-top: 28px;
+    color: var(--main-color);
 }
 nav {
     margin-right: 20px;
     float: right;
     font-size: 20px;
     margin-left: 25px;
-    padding-top: 32px;
+    padding-top: 40px;
 }
 nav a {
     text-decoration: none;
     margin: 15px;
+    color: var(--main-color);
 }
 main {
     width: 60%;
-    display: inline-block;
     margin-left: auto;
     margin-right: auto;
     padding: 15px;
 }
+main h2 {
+    font-size: 30px;
+    flex-wrap: wrap;
+}
 .line1 {
-    border-left: 6px solid black;
+    border-left: 6px solid var(--main-color);
     height: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .line2 {
-    border-left: 6px solid black;
+    border-left: 6px solid var(--main-color);
     height: 500px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .line3 {
-    border-left: 6px solid black;
+    border-left: 6px solid var(--main-color);
     height: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
-.about {
+#about {
     padding: 20px;
     display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
-.about p {
+#about p {
     font-size: 16px;
+}
+#work {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+#contact {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
