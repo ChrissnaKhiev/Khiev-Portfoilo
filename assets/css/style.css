@@ -70,20 +70,21 @@ body div h2 {
 #about {
     padding: 20px;
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
 }
 #about h2 {
     border-right: 5px solid var(--main-color);
-    width: max-content;
+    width: 150px;
     padding: 3px;
 }
 #about img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     margin-left: 10px;
     margin-right: 10px;
 }
 #about p {
+    flex: 1;
     font-size: 16px;
 }
 #work {
@@ -94,7 +95,7 @@ body div h2 {
 }
 #work h2 {
     border-right: 5px solid var(--main-color);
-    width: max-content;
+    width: 150px;
     padding: 3px;
 }
 #bigP {
@@ -136,7 +137,7 @@ body div h2 {
 }
 #contact h2 {
     border-right: 5px solid var(--main-color);
-    width: max-content;
+    width: 150px;
     padding: 3px;
 }
 #contact a {
