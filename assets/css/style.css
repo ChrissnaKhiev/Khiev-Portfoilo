@@ -134,6 +134,13 @@ body div h2 {
     background-color: var(--main-color);
     border: 5px solid var(--main-color);
 }
+#data img {
+    opacity: 0.5;
+}
+#data img:hover {
+    transition: 1s ease;
+    opacity: 1;
+}
 span {
     font-weight: bold;
 }
